@@ -1,0 +1,40 @@
+{
+  "accounts": [
+    {
+      "_id": {
+          "$oid": "5b92579f9808520001fac432"
+      },
+      "user_id": 149565,
+      "password": "f2729cc6cf6944f05ea0fb2071f28771",
+      "account_id": 149550,
+      "rating": 16,
+      "tz_offset": 3,
+      "channel_id": 162,
+      "volume_level": 90,
+      "parent_code": "01908",
+      "login": 149565,
+      "enabled": true,
+      "max_streams": 3,
+      "max_addresses": 1,
+      "autocolo": true,
+      "trusted": false,
+      "live_colo": {
+          "_id": "5b8d1bea09d37f8269461f22",
+          "name": "isr",
+          "title": "Israel",
+          "colo_id": 13,
+          "enabled": true,
+          "public": true
+      },
+      "dvr_colo": {
+          "_id": "5b8d1bd909d37f8269461f21",
+          "name": "deu",
+          "title": "DE 2",
+          "colo_id": 12,
+          "enabled": true,
+          "public": true
+      },
+      "abuses": {}
+    }
+  ]
+}
